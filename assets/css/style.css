@@ -56,6 +56,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+  display: none;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -132,20 +136,7 @@ main {
   color: #ffffff;
 }
 
-/*Footer */
-#social-networks {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content:space-evenly;
-  list-style-type: none;
-}
 
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
-  color: #3a3a3a;
-}
 
 /* Media query: tablets and larger (768px and up) */
 
@@ -316,4 +307,29 @@ hr {
 #times h3 {
   /* Override the heading color set in the general styles */
   color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
+/*Footer */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content:space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 }
