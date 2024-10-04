@@ -195,7 +195,7 @@ main {
   background-color: rgba(60, 60, 60, .6);
   /* margin: 20px 10%; */
   padding: 30px;
-  
+
 }
 
 #signup-form>h2 {
@@ -327,11 +327,11 @@ main {
 
   /* Sign Up Page */
   #signup {
-    background-position:center;
+    background-position: center;
     position: relative;
     /* max-width: 400px; */
-    
-    
+
+
   }
 
   #signup-form {
@@ -339,7 +339,7 @@ main {
     top: 150px;
     left: 10%;
     max-width: 400px;
-     
+
   }
 
   .text-input:hover {
@@ -350,7 +350,7 @@ main {
     background-color: #fafafa;
     color: #454b1b;
   }
- 
+
 
 }
 
